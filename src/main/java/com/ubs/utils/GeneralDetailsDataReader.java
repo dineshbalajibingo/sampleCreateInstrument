@@ -35,18 +35,6 @@ public class GeneralDetailsDataReader {
         }
     }
 
-/*    public final GeneralDetailsData getGeneralDetailsDataList(String productGroupData, String productTypeData){
-        for(GeneralDetailsData generalDetailsData : GeneralDetailsDataList) {
-            if(generalDetailsData.basicDetails.productGroup.equalsIgnoreCase(productGroupData) && generalDetailsData.basicDetails.productType.equalsIgnoreCase(productTypeData))
-                System.out.println("SYSOUT********productGroup**********" +generalDetailsData.basicDetails.productGroup);
-                ConsoleUtils.logInfoBlocks("********productGroup**********" +generalDetailsData.basicDetails.productGroup);
-                ConsoleUtils.logInfoBlocks("*******productType***********" +generalDetailsData.basicDetails.productType);
-                 ConsoleUtils.logInfoBlocks("******************" +generalDetailsData.issuerDetails.issuerIdentifierType);
-                return generalDetailsData;
-        }
-        return null;
-    }*/
-
     public final GeneralDetailsData getGeneralDetailsDataList(String productGroupData,String productTypeData){
         for(GeneralDetailsData generalDetailsData : GeneralDetailsDataList) {
             String productGroupDataName = productGroupData+" with "+productTypeData;
