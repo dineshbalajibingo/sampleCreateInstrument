@@ -1,0 +1,112 @@
+[
+  {
+    "basicDetails": {
+      "productGroup": "fixed",
+      "productType": "corporatebond"
+    },
+    "issuerDetails": {
+      "issuerIdentifierType": "testdata",
+      "issuerIdentifierValue": "testdata",
+      "issuerName": "testdata",
+      "countryOfIncorporation": "testdata",
+      "bloombergCompanyID": "testdta",
+      "FIDB": "testdata",
+      "ubsPartyID": "testdata",
+      "masterfileConsol": "testdata"
+    },
+    "issuerLevelDetails": {
+      "instrumentName": "testdata",
+      "couponType": "testdata",
+      "couponRate": "testdata",
+      "issueDate": "testdata",
+      "maturityDate": "testdata",
+      "couponFrequncy": "testdata",
+      "firstSettlementDate": "testdata",
+      "firstAccuralDate": "testdata",
+      "firstCoupondate": "testdata",
+      "penultimateCouponDate": "testdata",
+      "interestAccrualBasis": "testdata",
+      "tradingCurrency": "testdata",
+      "currency": "testdata",
+      "calculationType": "testdata",
+      "defaultSettlementDays": "testdata",
+      "minDemonination": "testdata",
+      "minTradignAmount": "testdata",
+      "amountIssued": "testdata",
+      "amountOutstanding": "testdata",
+      "redemptionRate": "testdata",
+      "maturityType": "testdata"
+    },
+    "identifiers": {
+      "identifierType": "testdata",
+      "value": "testdata",
+      "startDate": "testdata"
+    },
+    "callSchedule": {
+      "callType": "testdata",
+      "callStatus": "testdata",
+      "rate": "testdata",
+      "rateType": "testdata",
+      "currency": "testdata",
+      "rateBasis": "testdata",
+      "amount": "testdata",
+      "startDate": "testdata",
+      "endDate": "testDate"
+    }
+  },
+  {
+    "basicDetails": {
+      "productGroup": "fixed",
+      "productType": "govermentbond"
+    },
+    "issuerDetails": {
+      "issuerIdentifierType": "testdata",
+      "issuerIdentifierValue": "testdata",
+      "issuerName": "testdata",
+      "countryOfIncorporation": "testdata",
+      "bloombergCompanyID": "testdta",
+      "FIDB": "testdata",
+      "ubsPartyID": "testdata",
+      "masterfileConsol": "testdata"
+    },
+    "issuerLevelDetails": {
+      "instrumentName": "testdata",
+      "couponType": "testdata",
+      "couponRate": "testdata",
+      "issueDate": "testdata",
+      "maturityDate": "testdata",
+      "couponFrequncy": "testdata",
+      "firstSettlementDate": "testdata",
+      "firstAccuralDate": "testdata",
+      "firstCoupondate": "testdata",
+      "penultimateCouponDate": "testdata",
+      "interestAccrualBasis": "testdata",
+      "tradingCurrency": "testdata",
+      "currency": "testdata",
+      "calculationType": "testdata",
+      "defaultSettlementDays": "testdata",
+      "minDemonination": "testdata",
+      "minTradignAmount": "testdata",
+      "amountIssued": "testdata",
+      "amountOutstanding": "testdata",
+      "redemptionRate": "testdata",
+      "maturityType": "testdata"
+    },
+    "identifiers": {
+      "identifierType": "testdata",
+      "value": "testdata",
+      "startDate": "testdata"
+    },
+    "callSchedule": {
+      "callType": "testdata",
+      "callStatus": "testdata",
+      "rate": "testdata",
+      "rateType": "testdata",
+      "currency": "testdata",
+      "rateBasis": "testdata",
+      "amount": "testdata",
+      "startDate": "testdata",
+      "endDate": "testDate"
+    }
+  }
+]
