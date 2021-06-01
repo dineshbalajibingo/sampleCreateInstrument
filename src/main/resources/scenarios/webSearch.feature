@@ -39,4 +39,3 @@ Feature: Google Search
     And I enter usernames and passwords
 
     Examples: {'datafile':'./src/main/resources/data/testData.json'}
-

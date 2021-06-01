@@ -1,11 +1,11 @@
 [
   {
     "basicDetails": {
-      "productGroup": "fixed",
-      "productType": "corporatebond"
+      "productGroup": "Fixed with Corporate Bond",
+      "productType": "Corporate Bond"
     },
     "issuerDetails": {
-      "issuerIdentifierType": "testdata",
+      "issuerIdentifierType": "testdata1",
       "issuerIdentifierValue": "testdata",
       "issuerName": "testdata",
       "countryOfIncorporation": "testdata",
@@ -56,11 +56,11 @@
   },
   {
     "basicDetails": {
-      "productGroup": "fixed",
-      "productType": "govermentbond"
+      "productGroup": "Fixed with Goverment Bond",
+      "productType": "Goverment Bond"
     },
     "issuerDetails": {
-      "issuerIdentifierType": "testdata",
+      "issuerIdentifierType": "testdata2",
       "issuerIdentifierValue": "testdata",
       "issuerName": "testdata",
       "countryOfIncorporation": "testdata",

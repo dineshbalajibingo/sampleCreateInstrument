@@ -35,12 +35,29 @@ public class GeneralDetailsDataReader {
         }
     }
 
-    public final GeneralDetailsData getGeneralDetailsDataList(String productGroup, String productType){
+/*    public final GeneralDetailsData getGeneralDetailsDataList(String productGroupData, String productTypeData){
         for(GeneralDetailsData generalDetailsData : GeneralDetailsDataList) {
-            ConsoleUtils.logInfoBlocks("******************" +generalDetailsData.basicDetails.productGroup);
-            ConsoleUtils.logInfoBlocks("******************" +generalDetailsData.basicDetails.productType);
-            if(generalDetailsData.basicDetails.productGroup.equals(productGroup) && generalDetailsData.basicDetails.productType.equals(productType))
+            if(generalDetailsData.basicDetails.productGroup.equalsIgnoreCase(productGroupData) && generalDetailsData.basicDetails.productType.equalsIgnoreCase(productTypeData))
+                System.out.println("SYSOUT********productGroup**********" +generalDetailsData.basicDetails.productGroup);
+                ConsoleUtils.logInfoBlocks("********productGroup**********" +generalDetailsData.basicDetails.productGroup);
+                ConsoleUtils.logInfoBlocks("*******productType***********" +generalDetailsData.basicDetails.productType);
+                 ConsoleUtils.logInfoBlocks("******************" +generalDetailsData.issuerDetails.issuerIdentifierType);
                 return generalDetailsData;
+        }
+        return null;
+    }*/
+
+    public final GeneralDetailsData getGeneralDetailsDataList(String productGroupData,String productTypeData){
+        for(GeneralDetailsData generalDetailsData : GeneralDetailsDataList) {
+            String productGroupDataName = productGroupData+" with "+productTypeData;
+            ConsoleUtils.logInfoBlocks("******************"+productGroupDataName);
+            if(generalDetailsData.basicDetails.productGroup.equalsIgnoreCase(productGroupDataName) &&generalDetailsData.basicDetails.productType.equalsIgnoreCase(productTypeData)) {
+
+                ConsoleUtils.logInfoBlocks("productGroup--->" + generalDetailsData.basicDetails.productGroup);
+                ConsoleUtils.logInfoBlocks("productType---->" + generalDetailsData.basicDetails.productType);
+                ConsoleUtils.logInfoBlocks("issuerIdentifierType---->" + generalDetailsData.issuerDetails.issuerIdentifierType);
+                return generalDetailsData;
+            }
         }
         return null;
     }
