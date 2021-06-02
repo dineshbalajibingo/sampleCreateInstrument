@@ -3,7 +3,7 @@ package com.ubs.utils;
 public class FileReaderManager {
 
     private static FileReaderManager fileReaderManager = new FileReaderManager();
-     private static GeneralDetailsDataReader jsonDataReader;
+     private static GeneralDetailsPageDataReader jsonDataReader;
 
     private FileReaderManager() {
     }
@@ -12,7 +12,7 @@ public class FileReaderManager {
         return fileReaderManager;
     }
 
-    public GeneralDetailsDataReader getJsonReader(){
-        return (jsonDataReader == null) ? new GeneralDetailsDataReader() : jsonDataReader;
+    public GeneralDetailsPageDataReader getJsonReader(){
+        return (jsonDataReader == null) ? new GeneralDetailsPageDataReader() : jsonDataReader;
     }
 }

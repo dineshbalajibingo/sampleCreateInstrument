@@ -1,7 +1,8 @@
 [
   {
+    "id": "Fixed with Corporate Bond",
     "basicDetails": {
-      "productGroup": "Fixed with Corporate Bond",
+      "productGroup": "Fixed",
       "productType": "Corporate Bond"
     },
     "issuerDetails": {
@@ -55,8 +56,9 @@
     }
   },
   {
+    "id": "Fixed with Goverment Bond",
     "basicDetails": {
-      "productGroup": "Fixed with Goverment Bond",
+      "productGroup": "Fixed",
       "productType": "Goverment Bond"
     },
     "issuerDetails": {

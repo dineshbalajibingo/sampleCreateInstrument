@@ -2,7 +2,7 @@ package com.ubs.testDataTypes;
 
 public class GeneralDetailsData {
 
-
+        public String id;
         public BasicDetails basicDetails;
         public IssuerDetails issuerDetails;
         public IssuerLevelDetails issuerLevelDetails;

@@ -11,13 +11,12 @@ import com.qmetry.qaf.automation.core.ConfigurationManager;
 import com.quantum.utils.ConsoleUtils;
 import com.ubs.testDataTypes.*;
 
-public class GeneralDetailsDataReader {
-    String fileName = (String) ConfigurationManager.getBundle().getProperty("testDatajsonFile");
-    private final String jsonFilePath = "src/main/resources/data/"+fileName+".json";
+public class GeneralDetailsPageDataReader {
+    private final String jsonFilePath = "src/main/resources/data/GeneralDetailsData.json";
     private List<GeneralDetailsData> GeneralDetailsDataList;
 
 
-    public GeneralDetailsDataReader(){
+    public GeneralDetailsPageDataReader(){
         GeneralDetailsDataList = getGeneralDetailsData();
     }
     private List<GeneralDetailsData> getGeneralDetailsData() {
@@ -39,7 +38,7 @@ public class GeneralDetailsDataReader {
         for(GeneralDetailsData generalDetailsData : GeneralDetailsDataList) {
             String productGroupDataName = productGroupData+" with "+productTypeData;
             ConsoleUtils.logInfoBlocks("******************"+productGroupDataName);
-            if(generalDetailsData.basicDetails.productGroup.equalsIgnoreCase(productGroupDataName) &&generalDetailsData.basicDetails.productType.equalsIgnoreCase(productTypeData)) {
+            if(generalDetailsData.id.equalsIgnoreCase(productGroupDataName)) {
 
                 ConsoleUtils.logInfoBlocks("productGroup--->" + generalDetailsData.basicDetails.productGroup);
                 ConsoleUtils.logInfoBlocks("productType---->" + generalDetailsData.basicDetails.productType);

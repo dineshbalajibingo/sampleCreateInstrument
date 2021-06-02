@@ -19,7 +19,6 @@ public class GeneralDetailsStepDefs {
 
     @And("^I want to issue a bond with \"([^\"]*)\" and \"([^\"]*)\"$")
     public void iWantToIssueABondWithAnd(String productGroup, String productType) throws Throwable {
-        ConfigurationManager.getBundle().setProperty("testDatajsonFile", "GeneralDetailsData");
         GeneralDetailsData generalDetailsData = FileReaderManager.getInstance().getJsonReader().getGeneralDetailsDataList(productGroup,productType);
     }
 }
