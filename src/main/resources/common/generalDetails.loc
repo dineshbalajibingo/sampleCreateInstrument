@@ -1,0 +1,56 @@
+#Locators for Basic Details
+basicDetails.productGroup = {\"locator\":\"xpath= "}
+basicDetails.productType= {\"locator\":\"xpath= "}
+
+#Locators for Issuer Details Section
+
+issuerDetails.issuerIdentifierType= {\"locator\":\"xpath= "}
+issuerDetails.issuerIdentifierValue= {\"locator\":\"xpath= "}
+issuerDetails.issuerName= {\"locator\":\"xpath= "}
+issuerDetails.countryOfIncorporation= {\"locator\":\"xpath= "}
+issuerDetails.bloombergCompanyID= {\"locator\":\"xpath= "}
+issuerDetails.fIDB= {\"locator\":\"xpath= "}
+issuerDetails.ubsPartyID= {\"locator\":\"xpath= "}
+issuerDetails.masterfileConsol= {\"locator\":\"xpath= "}
+
+#Locators for Issuer Level Details Section
+
+issuerLevelDetails.instrumentName= {\"locator\":\"xpath= "}
+issuerLevelDetails.couponType= {\"locator\":\"xpath= "}
+issuerLevelDetails.couponRate= {\"locator\":\"xpath= "}
+issuerLevelDetails.issueDate= {\"locator\":\"xpath= "}
+issuerLevelDetails.maturityDate= {\"locator\":\"xpath= "}
+issuerLevelDetails.couponFrequncy= {\"locator\":\"xpath= "}
+issuerLevelDetails.firstSettlementDate= {\"locator\":\"xpath= "}
+issuerLevelDetails.firstAccuralDate= {\"locator\":\"xpath= "}
+issuerLevelDetails.firstCoupondate= {\"locator\":\"xpath= "}
+issuerLevelDetails.penultimateCouponDate= {\"locator\":\"xpath= "}
+issuerLevelDetails.interestAccrualBasis= {\"locator\":\"xpath= "}
+issuerLevelDetails.tradingCurrency= {\"locator\":\"xpath= "}
+issuerLevelDetails.currency= {\"locator\":\"xpath= "}
+issuerLevelDetails.calculationType= {\"locator\":\"xpath= "}
+issuerLevelDetails.defaultSettlementDays= {\"locator\":\"xpath= "}
+issuerLevelDetails.minDemonination= {\"locator\":\"xpath= "}
+issuerLevelDetails.minTradignAmount= {\"locator\":\"xpath= "}
+issuerLevelDetails.amountIssued= {\"locator\":\"xpath= "}
+issuerLevelDetails.amountOutstanding= {\"locator\":\"xpath= "}
+issuerLevelDetails.redemptionRate= {\"locator\":\"xpath= "}
+issuerLevelDetails.maturityType= {\"locator\":\"xpath= "}
+
+#Locators for Identifiers Section
+
+identifiers.identifierType= {\"locator\":\"xpath= "}
+identifiers.value= {\"locator\":\"xpath= "}
+identifiers.startDate= {\"locator\":\"xpath= "}
+
+#Locators for CallSchedule Section
+
+callSchedule.callType= {\"locator\":\"xpath= "}
+callSchedule.callStatus= {\"locator\":\"xpath= "}
+callSchedule.rate= {\"locator\":\"xpath= "}
+callSchedule.rateType= {\"locator\":\"xpath= "}
+callSchedule.currency= {\"locator\":\"xpath= "}
+callSchedule.rateBasis= {\"locator\":\"xpath= "}
+callSchedule.amount= {\"locator\":\"xpath= "}
+callSchedule.startDate= {\"locator\":\"xpath= "}
+callSchedule.endDate= {\"locator\":\"xpath= "}
