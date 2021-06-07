@@ -1,0 +1,34 @@
+{
+  "id": "",
+  "countryLevelDetails": {
+    "countryOfQuotation": "",
+    "countryOfRegistration": "",
+    "officalPlaceOfListing": "",
+    "abberviatedName": "",
+    "coltBook": "",
+    "coltID": "",
+    "percentageQuoteIndicator": ""
+  },
+  "listingLevelDetails": {
+    "marketOfListing": "",
+    "tradingCurrency": "",
+    "tradingStatus": "",
+    "defaultCurrency": "",
+    "dateOfAdmission": "",
+    "unitAmount": "",
+    "roundLotSize": "",
+    "defaultRic": "",
+    "compositeMarket": "",
+    "defaultExchange": "",
+    "primaryRic": "",
+    "whenIssuedIndicator": ""
+  },
+  "identifiers": {
+    "identifierType": "",
+    "value": "",
+    "startDate": ""
+  },
+  "comments": {
+    "comments": ""
+  }
+}

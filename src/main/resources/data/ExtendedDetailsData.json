@@ -1,0 +1,43 @@
+{
+  "id": "",
+  "extendedDetails": {
+    "issuePrice": "",
+    "mfBook": "",
+    "fisn": "",
+    "parAmount": "",
+    "cfi2015": "",
+    "144aIndicator": "",
+    "regs144aIndicator": "",
+    "fiOfInterest": "",
+    "issueStatus": "",
+    "sanctionFlag": "",
+    "eqOfInterest": "",
+    "issueForm": "",
+    "pricingMethod": "",
+    "percentageQuotaIndicator": "",
+    "priceQuotetye": "",
+    "stripIndicator": "",
+    "principalBasis": "",
+    "dualCurrency": "",
+    "eomIndicator": ""
+  },
+  "couponPaymentHistory": {
+    "eventType": "",
+    "status": "",
+    "currentCouponFrom": "",
+    "currentCouponTo": "",
+    "currentCouponEndDate": "",
+    "parValueCurrency": ""
+  },
+  "couponRateHistory": {
+    "eventType": "",
+    "rate": "",
+    "amount": "",
+    "couponCurrency": "",
+    "startDate": "",
+    "endDate": ""
+  },
+  "sourceDetails": {
+    "sourceDetails": ""
+  }
+}
