@@ -16,7 +16,6 @@ perfectoReports/
 .git/
 *.log
 /logs/
-/dashboard/
 *.pdf
 /bin
 Dockerfile.runner
