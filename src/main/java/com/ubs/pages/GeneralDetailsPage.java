@@ -229,6 +229,10 @@ public class GeneralDetailsPage extends WebDriverBaseTestPage<WebDriverTestPage>
         enterIssuerIdentifierValue.sendKeys(issuerIdentifierValue);
     }
 
+    public void validateIssuerIdentifierValue(String issuerIdentifierValue){
+        enterIssuerIdentifierValue.sendKeys(issuerIdentifierValue);
+    }
+
     public void enterIssuerName(String issuerName){
         enterIssuerName.sendKeys(issuerName);
     }
@@ -404,6 +408,7 @@ public class GeneralDetailsPage extends WebDriverBaseTestPage<WebDriverTestPage>
     public void pickCallScheduleStartDate(String startDate){
         Select selectData = new Select(pickCallScheduleStartDate);
         selectData.selectByValue(startDate);
+
     }
 
     public void pickCallScheduleEndDate(String endDate){

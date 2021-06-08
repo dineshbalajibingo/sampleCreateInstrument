@@ -1,6 +1,6 @@
 Feature: Validating general details page fields
 
-@test
+
   Scenario Outline: Issuance of Fixed Corportate Bond
     Given As an "<User>"
     And I want to issue a bond with "<Product Group>" and "<Product type>"
@@ -10,4 +10,10 @@ Feature: Validating general details page fields
 
   Examples:
     |User         | Product Group | Product type | General Details | Extended Details     | Country Details  |
-    |Data Operator|   Fixed       | Corporate Bond | Mandatory Values | Mandatory Values  | Mandatory Values |
+    |Data Operator|   Fixed       | Corporate Bond | Mandatory Values | Negative Values  | Mandatory Values |
+
+  @test
+  Scenario: DataTable Examples
+    Given I am on github login page
+    And I enter usernames and passwords
+      | testuser_1 | Test@153 |

@@ -1,5 +1,5 @@
 #Locators for Basic Details
-basicDetails.productGroup = {\"locator\":\"xpath= "}
+basicDetails.productGroup = {\"locator\":\"xpath= %s"}
 basicDetails.productType= {\"locator\":\"xpath= "}
 
 #Locators for Issuer Details Section

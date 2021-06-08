@@ -39,8 +39,7 @@ public class GeneralDetailsPageDataReader {
             String productGroupDataName = productGroupData+" with "+productTypeData;
             ConsoleUtils.logInfoBlocks("******************"+productGroupDataName);
             if(generalDetailsData.id.equalsIgnoreCase(productGroupDataName)) {
-
-                ConsoleUtils.logInfoBlocks("productGroup--->" + generalDetailsData.basicDetails.productGroup);
+                           ConsoleUtils.logInfoBlocks("productGroup--->" + generalDetailsData.basicDetails.productGroup);
                 ConsoleUtils.logInfoBlocks("productType---->" + generalDetailsData.basicDetails.productType);
                 ConsoleUtils.logInfoBlocks("issuerIdentifierType---->" + generalDetailsData.issuerDetails.issuerIdentifierType);
                 return generalDetailsData;

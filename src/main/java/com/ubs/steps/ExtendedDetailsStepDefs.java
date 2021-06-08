@@ -4,4 +4,7 @@ import com.qmetry.qaf.automation.step.QAFTestStepProvider;
 
 @QAFTestStepProvider
 public class ExtendedDetailsStepDefs {
+
+
+
 }

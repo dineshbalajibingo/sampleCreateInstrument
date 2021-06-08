@@ -56,7 +56,7 @@
     }
   },
   {
-    "id": "Fixed with Goverment Bond",
+    "id": "Fixed with Goverment Bond with XXX",
     "basicDetails": {
       "productGroup": "Fixed",
       "productType": "Goverment Bond"
@@ -109,6 +109,35 @@
       "amount": "testdata",
       "startDate": "testdata",
       "endDate": "testDate"
+    }
+  },
+  {
+    "id": "Fixed with Corporate Bond for Man",
+    "basicDetails": {
+      "productGroup": "Product Group",
+      "productType": "Product Type"
+    },
+    "issuerDetails": {
+      "issuerIdentifierType": "testdata1",
+      "issuerIdentifierValue": "testdata",
+
+    },
+    "issuerLevelDetails": {
+      "instrumentName": "testdata",
+      "couponType": "testdata",
+      "couponRate": "testdata",
+      "issueDate": "testdata",
+      "maturityDate": "testdata",
+      "
+    },
+    "identifiers": {
+      "identifierType": "testdata",
+      "value": "testdata",
+      "startDate": "testdata"
+    },
+    "callSchedule": {
+      "callType": "testdata",
+
     }
   }
 ]
