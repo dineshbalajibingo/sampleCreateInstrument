@@ -443,17 +443,14 @@ public class GeneralDetailsPage extends WebDriverBaseTestPage<WebDriverTestPage>
         {
             c.add(Calendar.YEAR, Integer.valueOf(theDigits));
             output = sdf.format(c.getTime());
-            System.out.println(output);
         }else if(dateValue.contains("Days"))
         {
             c.add(Calendar.DATE, Integer.valueOf(theDigits));
              output = sdf.format(c.getTime());
-            System.out.println(output);
          }
         else{
             c.add(Calendar.DATE, Integer.valueOf(theDigits));
             output = sdf.format(c.getTime());
-            System.out.println(output);
         }
         return output;
     }
