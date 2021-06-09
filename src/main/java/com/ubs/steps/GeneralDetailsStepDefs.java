@@ -64,4 +64,9 @@ public class GeneralDetailsStepDefs {
     }
 
 
+    @Given("^I want to enter below \"([^\"]*)\"$")
+    public void iWantToEnterBelow(String dateValue) throws Throwable {
+        generalDetailsPage.enterDates(dateValue);
+
+    }
 }

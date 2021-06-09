@@ -1,5 +1,6 @@
 package com.ubs.pages;
 
+import com.google.common.base.CharMatcher;
 import com.qmetry.qaf.automation.step.CommonStep;
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
 import com.qmetry.qaf.automation.ui.annotations.FindBy;
@@ -9,6 +10,10 @@ import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
 import com.quantum.utils.ConsoleUtils;
 import com.ubs.testDataTypes.GeneralDetailsData;
 import org.openqa.selenium.support.ui.Select;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 public class GeneralDetailsPage extends WebDriverBaseTestPage<WebDriverTestPage> {
 
@@ -423,4 +428,28 @@ public class GeneralDetailsPage extends WebDriverBaseTestPage<WebDriverTestPage>
     }
 
 
+    public void enterDates(String dateValue) {
+        String value = enterCalenderText(dateValue);
+        System.out.println("#################" +value);
+
+    }
+    public static String enterCalenderText(String dateValue){
+        String output = null;
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        Calendar c = Calendar.getInstance();
+        c.setTime(new Date());
+        String theDigits = CharMatcher.inRange('0', '9').retainFrom(dateValue);
+        if(dateValue.contains("Years"))
+        {
+            c.add(Calendar.YEAR, Integer.valueOf(theDigits));
+            output = sdf.format(c.getTime());
+            System.out.println(output);
+        }else if(dateValue.contains("Days"))
+        {
+            c.add(Calendar.DATE, Integer.valueOf(theDigits));
+             output = sdf.format(c.getTime());
+            System.out.println(output);
+         }
+        return output;
+    }
 }

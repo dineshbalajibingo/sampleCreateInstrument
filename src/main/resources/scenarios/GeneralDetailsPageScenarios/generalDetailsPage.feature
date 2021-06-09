@@ -12,8 +12,19 @@ Feature: Validating general details page fields
     |User         | Product Group | Product type | General Details | Extended Details     | Country Details  |
     |Data Operator|   Fixed       | Corporate Bond | Mandatory Values | Negative Values  | Mandatory Values |
 
-  @test
+
   Scenario: DataTable Examples
     Given I am on github login page
     And I enter usernames and passwords
       | testuser_1 | Test@153 |
+
+    @test
+    Scenario Outline: Date Filler
+
+      Given I want to enter below "<Dates>"
+
+      Examples:
+      |Dates|
+      |10 Years |
+      |1 Day |
+      |365 Days |
