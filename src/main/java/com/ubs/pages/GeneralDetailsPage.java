@@ -419,6 +419,7 @@ public class GeneralDetailsPage extends WebDriverBaseTestPage<WebDriverTestPage>
     public void pickCallScheduleEndDate(String endDate){
         Select selectData = new Select(pickCallScheduleEndDate);
         selectData.selectByValue(endDate);
+        //ConfigurationManager.getBundle().setProperty("theKey", "the value");
     }
 
 
@@ -435,7 +436,7 @@ public class GeneralDetailsPage extends WebDriverBaseTestPage<WebDriverTestPage>
     }
     public static String enterCalenderText(String dateValue){
         String output = null;
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MMM-yyyy");
         Calendar c = Calendar.getInstance();
         c.setTime(new Date());
         String theDigits = CharMatcher.inRange('0', '9').retainFrom(dateValue);

@@ -13,6 +13,8 @@ import cucumber.api.DataTable;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 import java.util.List;
 import java.util.Map;
@@ -41,21 +43,6 @@ public class GeneralDetailsStepDefs {
         ConsoleUtils.logInfoBlocks("Hello");
     }
 
-
-   /* @And("^I enter usernames and passwords:$")
-    public void iEnterUsernamesAndPasswords(List<List<String>> abc) {
-        ConsoleUtils.logInfoBlocks("DDDDDDDDDDDDDDDDD"+abc.get(0));
-    }*/
- /*  @And("^I enter usernames and passwords \"([^\"]*)\"$")
-   public void iEnterUsernamesAndPasswords(List<List<String>> abc) {
-       System.out.println("*************************"+abc.get(0));
-   }*/
-
-/*    @And("^I enter usernames and passwords\"([^\"]*)\"\"([^\"]*)\"$")
-    public void iEnterUsernamesAndPasswords(String UN, String PW) throws Throwable {
-        System.out.println("*************************"+UN);;
-    }*/
-
     @And("^I enter usernames and passwords$")
     public void iEnterUsernamesAndPasswords(DataTable table) {
         {
@@ -68,5 +55,51 @@ public class GeneralDetailsStepDefs {
     public void iWantToEnterBelow(String dateValue) throws Throwable {
         generalDetailsPage.enterDates(dateValue);
 
+    }
+
+    @And("^I want to validate rule order$")
+    public void iWantToValidateRule() {
+
+    }
+
+    @Given("^as a valid user in DB$")
+    public void asAValidUserInDB() {
+        
+    }
+
+    @When("^rule is validated$")
+    public void ruleIsValidated() {
+        
+    }
+
+   @And("^I want to validate rule order:$")
+    public void iWantToValidateRuleOrder(List<String> rule) {
+
+        System.out.println("*************" + rule);
+        if(rule.get(1).equalsIgnoreCase("rule1"))
+        {
+            System.out.println("*************" + rule.get(1) + " is Printed");
+            return;
+
+        }
+       if(rule.get(1).equalsIgnoreCase("rule2"))
+       {
+           System.out.println("*************" + rule.get(1) + " is Printed");
+       }
+
+    }
+
+
+
+
+/*    @And("^I want to validate rule order:$")
+    public void iWantToValidateRuleOrder(Object[] objArray0) {
+
+        System.out.println("*************" + objArray0.length);
+
+    }*/
+
+    @Then("^values in DB are verified$")
+    public void valuesInDBAreVerified() {
     }
 }
