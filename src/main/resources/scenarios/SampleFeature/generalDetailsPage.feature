@@ -24,6 +24,7 @@ Feature: Validating general details page fields
 
     Scenario Outline: Date Filler
       Given I want to enter below "<Dates>"
+      And then I click on login in page
 
       Examples:
       |Dates|

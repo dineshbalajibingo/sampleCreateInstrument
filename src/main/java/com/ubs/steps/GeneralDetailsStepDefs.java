@@ -102,4 +102,8 @@ public class GeneralDetailsStepDefs {
     @Then("^values in DB are verified$")
     public void valuesInDBAreVerified() {
     }
+
+    @And("^then I click on login in page$")
+    public void thenIClickOnLoginInPage() {
+    }
 }
