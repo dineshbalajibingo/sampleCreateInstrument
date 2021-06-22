@@ -8,7 +8,7 @@ Feature: Rule based testing
       | Ticker      | WIJ          |
       | CouponType  | When Issued  |
       | TradeStatus | Y            |
-    And file is placed in "RAW Zone" for processing
+    And file is placed in "Landing Zone" for processing
     And pipeline job is executed "successfully"
     When I look for Instrument table populated in "RAW Zone"
     Then the table should have following values for idBbUnique "123"
@@ -21,7 +21,7 @@ Feature: Rule based testing
       | Ticker      | NYT          |
       | CouponType  | CALL         |
       | TradeStatus | Y            |
-    And file is placed in "RAW Zone" for processing
+    And file is placed in "Landing Zone" for processing
     And pipeline job is executed "successfully"
     When I look for Instrument table populated in "RAW Zone"
     Then the table should have following values for idBbUnique "124"
@@ -34,7 +34,7 @@ Feature: Rule based testing
       | Ticker      | SOS          |
       | CouponType  | PUT          |
       | TradeStatus | Y            |
-    And file is placed in "RAW Zone" for processing
+    And file is placed in "Landing Zone" for processing
     And pipeline job is executed "successfully"
     When I look for Instrument table populated in "RAW Zone"
     Then the table should have following values for idBbUnique "125"
@@ -47,7 +47,7 @@ Feature: Rule based testing
       | Ticker      | DOD          |
       | CouponType  | Not  Issued  |
       | TradeStatus | N            |
-    And file is placed in "RAW Zone" for processing
+    And file is placed in "Landing Zone" for processing
     And pipeline job is executed "successfully"
     When I look for Instrument table populated in "RAW Zone"
     Then the table should have following values for idBbUnique "126"
