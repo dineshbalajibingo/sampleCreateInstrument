@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 	<properties>
 		<testngXmlDir>src/main/resources/config</testngXmlDir>
-		<testngXmlFile>createInstrument.xml</testngXmlFile>
+		<testngXmlFile>dataMigration.xml</testngXmlFile>
 		<skipTests>false</skipTests>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<reportium-sdk.version>2.3</reportium-sdk.version>
