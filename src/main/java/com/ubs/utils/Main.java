@@ -40,7 +40,7 @@ public class Main {
             }else{
                 csv = CDL.toString(docs);
             }
-            FileWriter file = new FileWriter ("src/main/resources/data/testDatassss.csv",true);
+            FileWriter file = new FileWriter ("src/main/resources/data/testData.csv",true);
             BufferedWriter bw = new BufferedWriter(file);
             bw.write(csv);
             //FileUtils.writeStringToFile(file, csv);
