@@ -1,6 +1,6 @@
 Feature: Validating general details page fields
 
-@test
+
   Scenario: Rule based validation
     Given as a valid user in DB
     And I want to validate rule order:

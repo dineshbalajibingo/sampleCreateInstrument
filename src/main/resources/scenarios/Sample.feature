@@ -18,4 +18,13 @@ Feature:
     When I log in
     Then I should see a login notification
 
+  @test
+  Scenario: Test of Rule 28
 
+    Given user has the input file in raw zone with following data
+      | UN          | PW           |
+      | idBbUnique  | 123          |
+      | ISIN        | CND100010H35 |
+      | Ticker      | WIJ          |
+      | CouponType  | When Issued  |
+      | TradeStatus | Y            |
