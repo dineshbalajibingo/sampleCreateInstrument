@@ -20,9 +20,16 @@ public class DataMigRuleValidation {
     public void valuesInDBAreVerified() {
     }
 
-    @Given("^user has the input file in raw zone with following data$")
-    public void userHasTheInputFileInRawZoneWithFollowingData(Map<Object, Object> data) throws IOException {
-        System.out.println("************"+data);
+    @Given("^user has the input file in raw zone with following data:$")
+    public void userHasTheInputFileInRawZoneWithFollowingData(List<Map<String, Object>> data) throws IOException {
+        System.out.println("************"+data.get(1).get("column_Name"));
+        System.out.println("************"+data.get(1).get("column_value"));
+        // using for-each loop for iteration over Map.entrySet()
+        /*for (Map.Entry<String,Object> entry : data.entrySet()) {
+            System.out.println("******"+data.size());
+            System.out.println("Value = " + entry.getValue() +
+                    ", Value = " + entry.getValue());
+        }*/
 
        /*if(DataMigrationPage.validateFilePresent())
         {

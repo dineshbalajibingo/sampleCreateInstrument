@@ -21,8 +21,8 @@ Feature:
   @test
   Scenario: Test of Rule 28
 
-    Given user has the input file in raw zone with following data
-      | UN          | PW           |
+    Given user has the input file in raw zone with following data:
+      | column_Name | column_value |
       | idBbUnique  | 123          |
       | ISIN        | CND100010H35 |
       | Ticker      | WIJ          |
