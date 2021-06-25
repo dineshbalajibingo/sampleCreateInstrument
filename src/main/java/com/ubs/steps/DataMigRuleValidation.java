@@ -23,14 +23,14 @@ public class DataMigRuleValidation {
     public void userHasTheInputFileInRawZoneWithFollowingData(Map<String, String> hm) throws IOException {
         System.out.println("************"+hm);
 
-       if(DataMigrationPage.validateFilePresent())
+       /*if(DataMigrationPage.validateFilePresent())
         {
             DataMigrationPage.updateTestData();
         }else{
             CsvReader.createTestDataTemplate();
             DataMigrationPage.updateTestData();
 
-        }
+        }*/
     }
 
     @And("^file is placed in \"([^\"]*)\" for processing$")

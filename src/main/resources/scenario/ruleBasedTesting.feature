@@ -1,9 +1,10 @@
 Feature: Rule based testing
 
-
+  @test
   Scenario: Test of Rule 28
-  
+
     Given user has the input file in raw zone with following data
+      | name        | value        |
       | idBbUnique  | 123          |
       | ISIN        | CND100010H35 |
       | Ticker      | WIJ          |
@@ -16,7 +17,7 @@ Feature: Rule based testing
 #      | Ticker | WIJ |
 
   Scenario: Test of Rule 29
-  
+
     Given user has the input file in raw zone with following data
       | idBbUnique  | 124          |
       | ISIN        | CND100010H36 |

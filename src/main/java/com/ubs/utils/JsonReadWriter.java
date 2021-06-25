@@ -48,7 +48,7 @@ public class JsonReadWriter {
             itemArr = (JSONObject)array.get(i);
          //   System.out.println("array of 0 "+(array.get(i).toString().equalsIgnoreCase("idBbUnique")));
             if(itemArr.get("idBbUnique").toString().equals("124")){
-                itemArr.put("CouponType", "Yes124");
+                itemArr.put("CouponType", "When Issued");
                 System.out.println("&&&&&&&&&&& " +itemArr);
                }
         }
