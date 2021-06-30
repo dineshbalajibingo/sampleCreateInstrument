@@ -62,6 +62,8 @@ public class JsonReadWriter {
         FileOutputStream outputStream = new FileOutputStream("src/main/resources/data/testOutput.json");
        // byte[] strToBytes = getPArrayPosition.toString().getBytes();
       //  outputStream.write(strToBytes);
+        //API - Karate
+        // Docker +K8 + Devops
     }
 
 }
